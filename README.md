@@ -4,6 +4,10 @@ Sitio web de **Miau Bistró**, un restaurante / cat café ficticio en Medellín 
 
 Proyecto desarrollado como pieza de portafolio por **OntoByte**.
 
+> **Demo en vivo:** https://felipeboom3000.github.io/restaurante-gatos/
+>
+> **Repositorio:** https://github.com/FELIPEBOOM3000/restaurante-gatos
+
 ![Estado](https://img.shields.io/badge/estado-listo%20para%20publicar-3f5b4a)
 ![HTML](https://img.shields.io/badge/HTML5-sem%C3%A1ntico-e34f26)
 ![CSS](https://img.shields.io/badge/CSS3-sin%20frameworks-1572b6)
