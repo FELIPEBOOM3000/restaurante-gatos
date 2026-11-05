@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Miau Bistró">
+  <defs>
+    <linearGradient id="fur" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E98A63"/>
+      <stop offset="1" stop-color="#C9552F"/>
+    </linearGradient>
+  </defs>
+  <path d="M13 25 9 11l13 7a25 25 0 0 1 20 0l13-7-4 14a22 22 0 1 1-38 0Z" fill="url(#fur)"/>
+  <circle cx="24" cy="31" r="3.2" fill="#2B1D16"/>
+  <circle cx="40" cy="31" r="3.2" fill="#2B1D16"/>
+  <path d="M32 37c2.6 0 4.5 1.8 4.5 3.6 0 2.5-2.1 4.4-4.5 4.4s-4.5-1.9-4.5-4.4c0-1.8 1.9-3.6 4.5-3.6Z" fill="#FBF6EE"/>
+  <path d="M7 39h9M7 45h9M48 39h9M48 45h9" stroke="#FBF6EE" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+</svg>

@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miau Bistró — Restaurante para gatos en Medellín</title>
+  <meta name="description" content="Miau Bistró es un cat café y bistró en Medellín: cocina de autor para humanos, menú felino supervisado por veterinarios y seis gatos rescatados que mandan en casa." />
+  <meta name="theme-color" content="#2B1D16" />
+  <meta name="author" content="OntoByte" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Miau Bistró — Aquí mandan los gatos" />
+  <meta property="og:description" content="Brunch, café de especialidad y un menú solo para gatos. Conoce la gatoteca y reserva tu mesa." />
+  <meta property="og:image" content="assets/img/gato-1.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script>document.documentElement.classList.add("js");</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Miau Bistró",
+    "description": "Cat café y bistró con cocina de autor para humanos y menú felino supervisado por veterinarios.",
+    "servesCuisine": ["Contemporánea", "Brunch", "Café de especialidad"],
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle 10 #43D-12, El Poblado",
+      "addressLocality": "Medellín",
+      "addressCountry": "CO"
+    },
+    "telephone": "+57 300 123 4567",
+    "openingHours": "Tu-Su 09:00-21:00"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <div class="topbar" role="note">
+    <p>Nuevo: brunch felino todos los domingos <span aria-hidden="true">·</span> Reserva tu mesa</p>
+    <a href="#reservas">Reservar <span aria-hidden="true">→</span></a>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Miau Bistró, ir al inicio">
+        <img src="assets/img/logo.svg" alt="" width="44" height="44" />
+        <span class="brand-text">
+          <strong>Miau Bistró</strong>
+          <small>cat café · medellín</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="primary-nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#casa">La casa</a></li>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#gatoteca">Gatoteca</a></li>
+          <li><a href="#experiencias">Experiencias</a></li>
+          <li><a href="#faq">Preguntas</a></li>
+        </ul>
+        <a class="btn btn-primary nav-cta" href="#reservas">Reservar mesa</a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menú de navegación">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- ============================== HERO ============================== -->
+    <section class="hero" id="inicio">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">
+            <span class="paw-dot" aria-hidden="true">🐾</span>
+            Cat café &amp; bistró · El Poblado
+          </p>
+          <h1 class="reveal">
+            Aquí mandan<br />
+            <em>los gatos.</em>
+          </h1>
+          <p class="hero-lead reveal">
+            Cocina de autor para humanos, un menú diseñado para gatos y seis
+            residentes peludos que supervisan cada servicio. Ven por el brunch,
+            quédate por los ronroneos.
+          </p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#reservas">
+              Reservar mesa
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="#gatoteca">Conocer la gatoteca</a>
+          </div>
+
+          <dl class="hero-stats reveal">
+            <div>
+              <dt>Gatos residentes</dt>
+              <dd><span data-count="6">6</span></dd>
+            </div>
+            <div>
+              <dt>Calificación</dt>
+              <dd><span data-count="4.9" data-decimals="1">4.9</span><small>/5</small></dd>
+            </div>
+            <div>
+              <dt>Adopciones</dt>
+              <dd><span data-count="48">48</span><small>+</small></dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="false">
+          <div class="hero-arch">
+            <img src="assets/img/gato-1.jpg" alt="Gato residente de Miau Bistró mirando a cámara" width="1000" height="1000" fetchpriority="high" />
+            <div class="hero-sticker">
+              <span>100%</span>
+              <strong>aprobado<br />por gatos</strong>
+            </div>
+          </div>
+
+          <div class="floating-card card-staff">
+            <span class="status-dot" aria-hidden="true"></span>
+            <div>
+              <small>De guardia hoy</small>
+              <strong>Miso, aprendiz de siestas</strong>
+            </div>
+          </div>
+
+          <div class="floating-card card-hours">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <div>
+              <small>Hoy abrimos</small>
+              <strong>9:00 am — 9:00 pm</strong>
+            </div>
+          </div>
+
+          <span class="spark spark-1" aria-hidden="true">✦</span>
+          <span class="spark spark-2" aria-hidden="true">✦</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= MARQUEE ============================= -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Brunch todos los días</span><span class="sep">🐾</span>
+        <span>Café de especialidad</span><span class="sep">🐾</span>
+        <span>Gatos rescatados</span><span class="sep">🐾</span>
+        <span>Adopción responsable</span><span class="sep">🐾</span>
+        <span>Menú felino</span><span class="sep">🐾</span>
+        <span>Brunch todos los días</span><span class="sep">🐾</span>
+        <span>Café de especialidad</span><span class="sep">🐾</span>
+        <span>Gatos rescatados</span><span class="sep">🐾</span>
+        <span>Adopción responsable</span><span class="sep">🐾</span>
+        <span>Menú felino</span><span class="sep">🐾</span>
+      </div>
+    </div>
+
+    <!-- ============================== CASA ============================== -->
+    <section class="section about" id="casa">
+      <div class="container about-grid">
+        <div class="about-media reveal">
+          <figure class="about-img about-img-main">
+            <img src="assets/img/gato-8.jpg" alt="Gato descansando en una silla del bistró" width="1000" height="1000" loading="lazy" />
+          </figure>
+          <figure class="about-img about-img-small">
+            <img src="assets/img/gato-7.jpg" alt="Gato durmiendo plácidamente" width="1000" height="1000" loading="lazy" />
+          </figure>
+          <div class="about-badge">
+            <strong>Desde 2019</strong>
+            <span>casa de gatos</span>
+          </div>
+        </div>
+
+        <div class="about-copy">
+          <p class="eyebrow reveal">La casa</p>
+          <h2 class="reveal">No es un restaurante con gatos. Es <em>su casa</em> donde también se come increíble.</h2>
+          <p class="reveal">
+            Miau Bistró nació de una idea simple: los mejores planes siempre
+            terminan con un gato encima. Rescatamos, cuidamos y acompañamos a
+            nuestros residentes; ellos ponen el ritmo, la calma y el control de
+            calidad.
+          </p>
+          <p class="reveal">
+            En la cocina trabajamos producto local, recetas de autor y café de
+            origen. En la sala, seis personalidades felinas con estrictos
+            horarios de siesta. Todo está pensado para que humanos y gatos
+            compartan el mismo espacio sin perder la elegancia.
+          </p>
+
+          <ul class="values reveal">
+            <li>
+              <span class="value-icon" aria-hidden="true">🌿</span>
+              <div><strong>Producto local</strong><small>Aliados campesinos de Antioquia.</small></div>
+            </li>
+            <li>
+              <span class="value-icon" aria-hidden="true">🩺</span>
+              <div><strong>Bienestar felino</strong><small>Menú y cuidados avalados por veterinarios.</small></div>
+            </li>
+            <li>
+              <span class="value-icon" aria-hidden="true">🏡</span>
+              <div><strong>Adopción responsable</strong><small>Proceso acompañado, nunca impulsivo.</small></div>
+            </li>
+          </ul>
+
+          <a class="link-arrow reveal" href="#gatoteca">Conoce a los residentes <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== MENÚ ============================== -->
+    <section class="section menu-section" id="menu">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow reveal">La carta</p>
+            <h2 class="reveal">Un menú para cada <em>bigote</em>.</h2>
+          </div>
+          <p class="section-lead reveal">
+            Cocina honesta, porciones generosas y un menú felino formulado con
+            veterinarios. Todo se prepara al momento.
+          </p>
+        </div>
+
+        <div class="menu-tabs reveal" role="tablist" aria-label="Categorías del menú">
+          <button class="menu-tab is-active" type="button" role="tab" id="tab-humanos" aria-selected="true" aria-controls="panel-menu" data-filter="humanos">Para humanos</button>
+          <button class="menu-tab" type="button" role="tab" id="tab-felino" aria-selected="false" aria-controls="panel-menu" data-filter="felino">Menú felino</button>
+          <button class="menu-tab" type="button" role="tab" id="tab-cafe" aria-selected="false" aria-controls="panel-menu" data-filter="cafe">Postres &amp; café</button>
+        </div>
+
+        <div class="menu-panel" id="panel-menu" role="tabpanel" aria-labelledby="tab-humanos" tabindex="0">
+          <div class="menu-grid" id="menu-grid">
+            <article class="menu-item" data-category="humanos">
+              <div class="menu-emoji" aria-hidden="true">🍳</div>
+              <div class="menu-info">
+                <div class="menu-title-row"><h3>Brunch del Bigote</h3><span class="price">$38.000</span></div>
+                <p>Huevos pochados, pan de masa madre, aguacate, salmón ahumado y ensalada de la casa.</p>
+                <div class="tags"><span class="tag tag-hot">Favorito</span><span class="tag">Sin gluten opcional</span></div>
+              </div>
+            </article>
+            <article class="menu-item" data-category="humanos">
+              <div class="menu-emoji" aria-hidden="true">🥪</div>
+              <div class="menu-info">
+                <div class="menu-title-row"><h3>Croque Monsieur Gatuno</h3><span class="price">$32.000</span></div>
+                <p>Brioche tostado, jamón artesanal, gruyère y bechamel de nuez moscada.</p>
+                <div class="tags"><span class="tag">Clásico</span></div>
+              </div>
+            </article>
+            <article class="menu-item" data-category="humanos">
+              <div class="menu-emoji" aria-hidden="true">🍄</div>
+              <div class="menu-info">
+                <div class="menu-title-row"><h3>Risotto de hongos</h3><span class="price">$36.000</span></div>
+                <p>Arroz carnaroli, boletus, parmesano de 18 meses y tomillo fresco.</p>
+                <div class="tags"><span class="tag tag-veg">Vegetariano</span></div>
+              </div>
+            </article>
+            <article class="menu-item" data-category="humanos">
+              <div class="menu-emoji" aria-hidden="true">🥗</div>
+              <div class="menu-info">
+                <div class="menu-title-row"><h3>Bowl Miau Verde</h3><span class="price">$29.000</span></div>
+                <p>Quinoa, garbanzo crocante, kale, palta, semillas y aderezo de tahini.</p>
+                <div class="tags"><span class="tag tag-veg">Vegano</span></div>
+              </div>
+            </article>
+            <article class="menu-item" data-category="humanos">
+              <div class="menu-emoji" aria-hidden="true">🍝</div>
+              <div class="menu-info">
+                <div class="menu-title-row"><h3>Pasta Cola Larga</h3><span class="price">$34.000</span></div>
+                <p>Rigatoni, pomodoro cocido lento, burrata cremosa y albahaca.</p>
+                <div class="tags"><span class="tag">Favorito de la casa</span></div>
+              </div>
+            </article>
+            <article class="menu-item" data-category="humanos">
+              <div class="menu-emoji" aria-hidden="true">🥖</div>
+              <div class="menu-info">
+                <div class="menu-title-row"><h3>Sándwich Siames</h3><span class="price">$28.000</span></div>
+                <p>Pollo al limón, lechuga crocante, tomate confitado y mayo de hierbas.</p>
+                <div class="tags"><span class="tag">Para compartir</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item" data-category="felino" hidden>
+              <div class="menu-emoji" aria-hidden="true">🐟</div>
+              <div class="menu-info">
+                <div class="menu-title-row"><h3>Salmón al vapor</h3><span class="price">$18.000</span></div>
+                <p>Salmón fresco sin espinas, al vapor y servido a temperatura ambiente.</p>
+                <div class="tags"><span class="tag tag-cat">Alto en omega 3</span></div>
+              </div>
+            </article>
+            <article class="menu-item" data-category="felino" hidden>
+              <div class="menu-emoji" aria-hidden="true">🍗</div>
+              <div class="menu-info">
+                <div class="menu-title-row"><h3>Pollo desmechado</h3><span class="price">$15.000</span></div>
+                <p>Pechuga de pollo cocida sin sal, desmechada y con caldo de la casa.</p>
+                <div class="tags"><span class="tag tag-cat">Fácil de digerir</span></div>
+              </div>
+            </article>
+            <article class="menu-item" data-category="felino" hidden>
+              <div class="menu-emoji" aria-hidden="true">🐠</div>
+              <div class="menu-info">
+                <div class="menu-title-row"><h3>Atún premium</h3><span class="price">$16.000</span></div>
+                <p>Lomos de atún en agua, porción individual y presentación tibia.</p>
+                <div class="tags"><span class="tag tag-cat">Sin condimentos</span></div>
+              </div>
+            </article>
+            <article class="menu-item" data-category="felino" hidden>
+              <div class="menu-emoji" aria-hidden="true">🥣</div>
+              <div class="menu-info">
+                <div class="menu-title-row"><h3>Paté de la casa</h3><span class="price">$12.000</span></div>
+                <p>Mezcla suave de pollo, hígado y caldo, receta avalada por veterinaria.</p>
+                <div class="tags"><span class="tag tag-cat">Receta de la casa</span></div>
+              </div>
+            </article>
+            <article class="menu-item menu-note" data-category="felino" hidden>
+              <div class="menu-emoji" aria-hidden="true">🩺</div>
+              <div class="menu-info">
+                <h3>Solo para huéspedes felinos</h3>
+                <p>Porciones individuales, sin sal ni condimentos. Si vienes con tu gato, cuéntanos sus alergias al reservar. El menú felino requiere reserva previa.</p>
+                <div class="tags"><span class="tag tag-cat">Supervisado por veterinaria</span></div>
+              </div>
+            </article>
+
+            <article class="menu-item" data-category="cafe" hidden>
+              <div class="menu-emoji" aria-hidden="true">🍰</div>
+              <div class="menu-info">
+                <div class="menu-title-row"><h3>Tarta de maracuyá</h3><span class="price">$16.000</span></div>
+                <p>Base de galleta, crema de queso y curd de maracuyá fresco.</p>
+                <div class="tags"><span class="tag tag-hot">La más pedida</span></div>
+              </div>
+            </article>
+            <article class="menu-item" data-category="cafe" hidden>
+              <div class="menu-emoji" aria-hidden="true">🥐</div>
+              <div class="menu-info">
+                <div class="menu-title-row"><h3>Croissant de almendra</h3><span class="price">$12.000</span></div>
+                <p>Hojaldre de mantequilla, crema de almendra y azúcar glass.</p>
+                <div class="tags"><span class="tag">Recién horneado</span></div>
+              </div>
+            </article>
+            <article class="menu-item" data-category="cafe" hidden>
+              <div class="menu-emoji" aria-hidden="true">☕</div>
+              <div class="menu-info">
+                <div class="menu-title-row"><h3>Flat white</h3><span class="price">$10.000</span></div>
+                <p>Doble espresso de origen y leche texturizada. Café de especialidad.</p>
+                <div class="tags"><span class="tag">Origen Antioquia</span></div>
+              </div>
+            </article>
+            <article class="menu-item" data-category="cafe" hidden>
+              <div class="menu-emoji" aria-hidden="true">🍫</div>
+              <div class="menu-info">
+                <div class="menu-title-row"><h3>Mocha Bigotes</h3><span class="price">$13.000</span></div>
+                <p>Espresso, chocolate 70%, leche y un toque de canela.</p>
+                <div class="tags"><span class="tag">Favorito</span></div>
+              </div>
+            </article>
+            <article class="menu-item" data-category="cafe" hidden>
+              <div class="menu-emoji" aria-hidden="true">🍋</div>
+              <div class="menu-info">
+                <div class="menu-title-row"><h3>Limonada de la abuela</h3><span class="price">$9.000</span></div>
+                <p>Limón, hierbabuena y un secreto de familia. Sin azúcar añadida.</p>
+                <div class="tags"><span class="tag tag-veg">Vegana</span></div>
+              </div>
+            </article>
+            <article class="menu-item" data-category="cafe" hidden>
+              <div class="menu-emoji" aria-hidden="true">🍨</div>
+              <div class="menu-info">
+                <div class="menu-title-row"><h3>Affogato Miau</h3><span class="price">$14.000</span></div>
+                <p>Helado de vainilla de la casa ahogado en espresso caliente.</p>
+                <div class="tags"><span class="tag">Para terminar</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <p class="menu-footnote reveal">
+          <span aria-hidden="true">🌱</span> Tenemos opciones vegetarianas, veganas y sin gluten.
+          <a href="#reservas">Avísanos al reservar</a> y adaptamos tu plato.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================ GATOTECA ============================ -->
+    <section class="section gatoteca" id="gatoteca">
+      <div class="container">
+        <div class="section-head section-head-light">
+          <div>
+            <p class="eyebrow reveal">La gatoteca</p>
+            <h2 class="reveal">Seis personalidades.<br /><em>Un solo trono.</em></h2>
+          </div>
+          <p class="section-lead reveal">
+            Todos fueron rescatados y viven aquí con cuidados veterinarios.
+            Algunos buscan familia; otros ya eligieron quedarse para siempre.
+          </p>
+        </div>
+
+        <div class="cat-grid">
+          <article class="cat-card reveal" data-cat="miso" tabindex="0" role="button" aria-label="Conocer a Miso">
+            <div class="cat-photo"><img src="assets/img/gato-2.jpg" alt="Miso, gato atigrado" width="1000" height="1000" loading="lazy" /><span class="cat-status">En adopción</span></div>
+            <div class="cat-body">
+              <div class="cat-name-row"><h3>Miso</h3><span>8 meses</span></div>
+              <p class="cat-role">Aprendiz de siestas</p>
+              <div class="cat-traits"><span>Juguetón</span><span>Curioso</span></div>
+              <span class="cat-link">Conóceme <span aria-hidden="true">→</span></span>
+            </div>
+          </article>
+
+          <article class="cat-card reveal" data-cat="mango" tabindex="0" role="button" aria-label="Conocer a Mango">
+            <div class="cat-photo"><img src="assets/img/gato-3.jpg" alt="Mango, gato naranja" width="1000" height="1000" loading="lazy" /><span class="cat-status cat-status-home">Residente</span></div>
+            <div class="cat-body">
+              <div class="cat-name-row"><h3>Mango</h3><span>3 años</span></div>
+              <p class="cat-role">Rey del sol</p>
+              <div class="cat-traits"><span>Sociable</span><span>Glotón</span></div>
+              <span class="cat-link">Conóceme <span aria-hidden="true">→</span></span>
+            </div>
+          </article>
+
+          <article class="cat-card reveal" data-cat="luna" tabindex="0" role="button" aria-label="Conocer a Luna">
+            <div class="cat-photo"><img src="assets/img/gato-4.jpg" alt="Luna, gata negra" width="1000" height="1000" loading="lazy" /><span class="cat-status">En adopción</span></div>
+            <div class="cat-body">
+              <div class="cat-name-row"><h3>Luna</h3><span>4 años</span></div>
+              <p class="cat-role">Guardiana nocturna</p>
+              <div class="cat-traits"><span>Independiente</span><span>Elegante</span></div>
+              <span class="cat-link">Conóceme <span aria-hidden="true">→</span></span>
+            </div>
+          </article>
+
+          <article class="cat-card reveal" data-cat="nube" tabindex="0" role="button" aria-label="Conocer a Nube">
+            <div class="cat-photo"><img src="assets/img/gato-5.jpg" alt="Nube, gata blanca" width="1000" height="1000" loading="lazy" /><span class="cat-status">En adopción</span></div>
+            <div class="cat-body">
+              <div class="cat-name-row"><h3>Nube</h3><span>2 años</span></div>
+              <p class="cat-role">Dama de algodón</p>
+              <div class="cat-traits"><span>Tranquila</span><span>Mimosa</span></div>
+              <span class="cat-link">Conóceme <span aria-hidden="true">→</span></span>
+            </div>
+          </article>
+
+          <article class="cat-card reveal" data-cat="bigotes" tabindex="0" role="button" aria-label="Conocer a Bigotes">
+            <div class="cat-photo"><img src="assets/img/gato-6.jpg" alt="Bigotes, gato de mirada curiosa" width="1000" height="1000" loading="lazy" /><span class="cat-status cat-status-home">Residente</span></div>
+            <div class="cat-body">
+              <div class="cat-name-row"><h3>Bigotes</h3><span>5 años</span></div>
+              <p class="cat-role">Director de ceremonias</p>
+              <div class="cat-traits"><span>Carismático</span><span>Charlatán</span></div>
+              <span class="cat-link">Conóceme <span aria-hidden="true">→</span></span>
+            </div>
+          </article>
+
+          <article class="cat-card reveal" data-cat="tofu" tabindex="0" role="button" aria-label="Conocer a Tofu">
+            <div class="cat-photo"><img src="assets/img/gato-7.jpg" alt="Tofu, gato dormilón" width="1000" height="1000" loading="lazy" /><span class="cat-status cat-status-home">Residente</span></div>
+            <div class="cat-body">
+              <div class="cat-name-row"><h3>Tofu</h3><span>6 años</span></div>
+              <p class="cat-role">Embajador de siestas</p>
+              <div class="cat-traits"><span>Dormilón</span><span>Dulce</span></div>
+              <span class="cat-link">Conóceme <span aria-hidden="true">→</span></span>
+            </div>
+          </article>
+        </div>
+
+        <div class="gatoteca-note reveal">
+          <p><strong>¿Quieres adoptar?</strong> Agenda una visita, conoce al gato y conversa con nuestro equipo. La adopción es un compromiso de por vida, no una sorpresa.</p>
+          <a class="btn btn-light" href="#reservas">Agendar visita</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ RESERVAS ============================ -->
+    <section class="section reservas" id="reservas">
+      <div class="container reservas-grid">
+        <div class="reservas-copy">
+          <p class="eyebrow reveal">Reservas</p>
+          <h2 class="reveal">Tu mesa está lista.<br /><em>Los gatos, casi.</em></h2>
+          <p class="reveal">
+            Reserva con al menos 24 horas de anticipación. Cada turno dura
+            90 minutos para que todos —humanos y felinos— tengan su espacio.
+          </p>
+
+          <ul class="reserva-info reveal">
+            <li>
+              <span class="info-icon" aria-hidden="true">🕘</span>
+              <div><strong>Horario</strong><span>Martes a domingo · 9:00 am a 9:00 pm</span></div>
+            </li>
+            <li>
+              <span class="info-icon" aria-hidden="true">📍</span>
+              <div><strong>Dirección</strong><span>Calle 10 #43D-12, El Poblado, Medellín</span></div>
+            </li>
+            <li>
+              <span class="info-icon" aria-hidden="true">🐾</span>
+              <div><strong>Con tu gato</strong><span>Trae carné de vacunas y avísanos al reservar.</span></div>
+            </li>
+          </ul>
+
+          <div class="rules-card reveal">
+            <h3>Las reglas de la casa</h3>
+            <ol>
+              <li>Deja dormir a Tofu. Es su trabajo.</li>
+              <li>No des comida humana a los gatos, por adorable que supliques.</li>
+              <li>Pide permiso antes de cargar a un residente.</li>
+              <li>Fotos sí, flash no.</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="reservas-form-wrap reveal">
+          <form class="reserva-form" id="reserva-form" novalidate>
+            <h3>Reserva tu visita</h3>
+            <p class="form-intro">Completa los datos y te confirmamos por correo.</p>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" placeholder="Tu nombre" required />
+                <small class="error" data-error-for="nombre"></small>
+              </div>
+              <div class="field">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" autocomplete="email" placeholder="tucorreo@email.com" required />
+                <small class="error" data-error-for="correo"></small>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="telefono">Teléfono / WhatsApp</label>
+                <input type="tel" id="telefono" name="telefono" autocomplete="tel" placeholder="+57 300 000 0000" required />
+                <small class="error" data-error-for="telefono"></small>
+              </div>
+              <div class="field">
+                <label for="personas">Personas</label>
+                <select id="personas" name="personas" required>
+                  <option value="">Elige una opción</option>
+                  <option value="1">1 persona</option>
+                  <option value="2">2 personas</option>
+                  <option value="3">3 personas</option>
+                  <option value="4">4 personas</option>
+                  <option value="5">5 personas</option>
+                  <option value="6">6 personas</option>
+                  <option value="7+">Más de 6 (te contactamos)</option>
+                </select>
+                <small class="error" data-error-for="personas"></small>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="fecha">Fecha</label>
+                <input type="date" id="fecha" name="fecha" required />
+                <small class="error" data-error-for="fecha"></small>
+              </div>
+              <div class="field">
+                <label for="hora">Hora</label>
+                <select id="hora" name="hora" required>
+                  <option value="">Elige una hora</option>
+                  <option value="09:00">9:00 am</option>
+                  <option value="11:00">11:00 am</option>
+                  <option value="13:00">1:00 pm</option>
+                  <option value="15:00">3:00 pm</option>
+                  <option value="17:00">5:00 pm</option>
+                  <option value="19:00">7:00 pm</option>
+                </select>
+                <small class="error" data-error-for="hora"></small>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="ocasion">Ocasión</label>
+                <select id="ocasion" name="ocasion">
+                  <option value="Visita casual">Visita casual</option>
+                  <option value="Cumpleaños">Cumpleaños</option>
+                  <option value="Cita romántica">Cita romántica</option>
+                  <option value="Plan con amigos">Plan con amigos</option>
+                  <option value="Conocer un gato">Conocer un gato para adoptar</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="gato">Gato favorito</label>
+                <select id="gato" name="gato">
+                  <option value="Sorpréndeme">Sorpréndeme</option>
+                  <option value="Miso">Miso</option>
+                  <option value="Mango">Mango</option>
+                  <option value="Luna">Luna</option>
+                  <option value="Nube">Nube</option>
+                  <option value="Bigotes">Bigotes</option>
+                  <option value="Tofu">Tofu</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="notas">Notas o alergias <span class="optional">(opcional)</span></label>
+              <textarea id="notas" name="notas" rows="3" placeholder="¿Vienes con tu gato? ¿Alguna alergia alimentaria?"></textarea>
+            </div>
+
+            <label class="checkbox">
+              <input type="checkbox" id="acepto" name="acepto" required />
+              <span>Acepto las reglas de la casa y el tratamiento de mis datos.</span>
+            </label>
+            <small class="error" data-error-for="acepto"></small>
+
+            <button class="btn btn-primary btn-block" type="submit">Solicitar reserva</button>
+            <p class="form-legal">Recibirás confirmación en menos de 24 horas. Sin cobros anticipados.</p>
+          </form>
+
+          <div class="reserva-success" id="reserva-success" hidden>
+            <span class="success-icon" aria-hidden="true">🐾</span>
+            <h3>¡Reserva solicitada!</h3>
+            <p>Gracias, <strong id="success-name">—</strong>. Guardamos tu solicitud:</p>
+            <ul class="success-details" id="success-details"></ul>
+            <p class="success-code">Código de reserva: <strong id="success-code">—</strong></p>
+            <p class="success-note">Te escribiremos a <strong id="success-email">—</strong> para confirmar. Si no llega en 24 horas, revisa spam o escríbenos.</p>
+            <button class="btn btn-ghost" type="button" id="new-reservation">Hacer otra reserva</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================== EXPERIENCIAS ========================== -->
+    <section class="section experiencias" id="experiencias">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow reveal">Experiencias</p>
+            <h2 class="reveal">Lo que dicen los <em>humanos</em>.</h2>
+          </div>
+          <p class="section-lead reveal">
+            Reseñas reales de personas que llegaron por el café y se quedaron
+            hablando con un gato.
+          </p>
+        </div>
+
+        <div class="testimonials">
+          <figure class="testimonial reveal">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <blockquote>“Vine por el brunch y me quedé por Tofu. La comida es increíble, pero el nivel de tranquilidad que se siente aquí no tiene precio.”</blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">VR</span><div><strong>Valentina R.</strong><small>Visitó en octubre</small></div></figcaption>
+          </figure>
+          <figure class="testimonial reveal">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <blockquote>“El único lugar donde mi gata tiene menú propio. Nos trataron con una atención que no encuentras ni en restaurantes de lujo.”</blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">CM</span><div><strong>Camilo M.</strong><small>Visitó en septiembre</small></div></figcaption>
+          </figure>
+          <figure class="testimonial reveal">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <blockquote>“Un plan diferente, cálido y lleno de bigotes. Reservamos para el cumpleaños de mi hermana y fue el mejor regalo.”</blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">LG</span><div><strong>Laura G.</strong><small>Visitó en agosto</small></div></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== FAQ ============================== -->
+    <section class="section faq" id="faq">
+      <div class="container faq-grid">
+        <div class="faq-copy">
+          <p class="eyebrow reveal">Preguntas frecuentes</p>
+          <h2 class="reveal">Antes de venir,<br /><em>lo que debes saber.</em></h2>
+          <p class="reveal">Si tu duda no está aquí, escríbenos a <a href="mailto:hola@miaubistro.co">hola@miaubistro.co</a>.</p>
+        </div>
+
+        <div class="faq-list reveal">
+          <details>
+            <summary>¿Puedo llevar a mi gato?</summary>
+            <p>Sí, con reserva previa y carné de vacunas vigente. Tu gato debe venir en transportadora y tener al menos 6 meses. Contamos con una zona separada para visitas felinas.</p>
+          </details>
+          <details>
+            <summary>¿Los gatos son adoptables?</summary>
+            <p>Miso, Luna y Nube buscan familia. Mango, Bigotes y Tofu son residentes permanentes. La adopción incluye entrevista, visita y seguimiento.</p>
+          </details>
+          <details>
+            <summary>¿Hay opciones veganas o sin gluten?</summary>
+            <p>Sí. Tenemos platos vegetarianos, veganos y sin gluten. Avísanos al reservar para adaptar tu pedido y evitar contaminación cruzada.</p>
+          </details>
+          <details>
+            <summary>¿Puedo ir con niños?</summary>
+            <p>Claro, siempre acompañados de un adulto. Les pedimos hablar suave, no perseguir a los gatos y respetar sus zonas de descanso.</p>
+          </details>
+          <details>
+            <summary>¿Puedo trabajar o estudiar allí?</summary>
+            <p>Sí, de martes a jueves de 9:00 am a 5:00 pm tenemos zona de coworking con wifi y enchufes. Los fines de semana priorizamos las mesas para comer.</p>
+          </details>
+          <details>
+            <summary>¿Cómo reservo y cuánto dura la visita?</summary>
+            <p>Reserva desde esta página con 24 horas de anticipación. Cada turno dura 90 minutos; si quieres quedarte más, pregunta por disponibilidad al llegar.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== CTA ============================== -->
+    <section class="cta-band">
+      <div class="container cta-inner reveal">
+        <div>
+          <p class="eyebrow">Nos vemos pronto</p>
+          <h2>Trae hambre.<br /><em>Ellos ponen el ronroneo.</em></h2>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-light" href="#reservas">Reservar mesa</a>
+          <a class="btn btn-outline-light" href="https://wa.me/573001234567" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================== FOOTER ============================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#inicio" aria-label="Miau Bistró, ir al inicio">
+          <img src="assets/img/logo.svg" alt="" width="48" height="48" />
+          <span class="brand-text"><strong>Miau Bistró</strong><small>cat café · medellín</small></span>
+        </a>
+        <p>Cocina de autor, café de especialidad y seis gatos que creen que la casa es suya. Porque lo es.</p>
+        <div class="socials" aria-label="Redes sociales">
+          <a href="#" aria-label="Instagram de Miau Bistró">Instagram</a>
+          <a href="#" aria-label="TikTok de Miau Bistró">TikTok</a>
+          <a href="https://wa.me/573001234567" target="_blank" rel="noopener" aria-label="WhatsApp de Miau Bistró">WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3>Visítanos</h3>
+        <p>Calle 10 #43D-12<br />El Poblado, Medellín</p>
+        <p><a href="mailto:hola@miaubistro.co">hola@miaubistro.co</a><br /><a href="tel:+573001234567">+57 300 123 4567</a></p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Horarios</h3>
+        <dl class="hours">
+          <div><dt>Martes a jueves</dt><dd>9:00 am — 8:00 pm</dd></div>
+          <div><dt>Viernes y sábado</dt><dd>9:00 am — 9:00 pm</dd></div>
+          <div><dt>Domingo</dt><dd>9:00 am — 6:00 pm</dd></div>
+          <div><dt>Lunes</dt><dd>Cerrado por siesta</dd></div>
+        </dl>
+      </div>
+
+      <div class="footer-col">
+        <h3>Explora</h3>
+        <ul class="footer-links">
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#gatoteca">Gatoteca</a></li>
+          <li><a href="#reservas">Reservas</a></li>
+          <li><a href="#faq">Preguntas frecuentes</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> Miau Bistró. Todos los derechos reservados.</p>
+      <p>Sitio diseñado y desarrollado por <strong>OntoByte</strong> <span aria-hidden="true">🐾</span></p>
+    </div>
+  </footer>
+
+  <!-- ============================ CAT DIALOG ============================ -->
+  <dialog class="cat-dialog" id="cat-dialog" aria-labelledby="cat-dialog-name">
+    <button class="dialog-close" id="dialog-close" type="button" aria-label="Cerrar ficha del gato">×</button>
+    <div class="dialog-media">
+      <img id="dialog-img" src="assets/img/gato-2.jpg" alt="" width="1000" height="1000" />
+    </div>
+    <div class="dialog-body">
+      <p class="eyebrow" id="dialog-status">En adopción</p>
+      <h2 id="cat-dialog-name">Miso</h2>
+      <p class="dialog-role" id="dialog-role">Aprendiz de siestas</p>
+      <p id="dialog-bio"></p>
+      <div class="cat-traits" id="dialog-traits"></div>
+      <dl class="dialog-facts">
+        <div><dt>Edad</dt><dd id="dialog-age">—</dd></div>
+        <div><dt>Llegó en</dt><dd id="dialog-arrived">—</dd></div>
+        <div><dt>Le encanta</dt><dd id="dialog-loves">—</dd></div>
+      </dl>
+      <a class="btn btn-primary" href="#reservas" id="dialog-cta">Agendar visita</a>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

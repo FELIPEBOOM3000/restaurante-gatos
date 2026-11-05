@@ -1,0 +1,19 @@
+# Archivos del sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Dependencias y artefactos (por si se agrega tooling más adelante)
+node_modules/
+dist/
+build/
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+~$*

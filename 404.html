@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página no encontrada — Miau Bistró</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,500&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <style>
+    .error-page {
+      min-height: 100svh;
+      display: grid;
+      place-items: center;
+      padding: 40px 24px;
+      text-align: center;
+      background:
+        radial-gradient(700px 420px at 80% 10%, rgba(233, 138, 99, 0.22), transparent 65%),
+        var(--cream);
+    }
+    .error-card { max-width: 620px; }
+    .error-card .brand { justify-content: center; margin-bottom: 34px; }
+    .error-code {
+      font-family: var(--font-display);
+      font-size: clamp(6rem, 20vw, 12rem);
+      font-weight: 900;
+      line-height: 0.8;
+      letter-spacing: -0.06em;
+      color: var(--terracotta);
+    }
+    .error-card h1 { margin-top: 18px; font-size: clamp(2rem, 5vw, 3.2rem); }
+    .error-card p { margin: 16px auto 28px; max-width: 46ch; color: var(--ink-soft); }
+    .error-card .btn { margin: 4px; }
+    .error-card img.cat {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin: 0 auto 24px;
+      border: 6px solid var(--paper);
+      border-radius: 50%;
+      box-shadow: var(--shadow-md);
+    }
+  </style>
+</head>
+<body>
+  <main class="error-page">
+    <div class="error-card">
+      <a class="brand" href="index.html" aria-label="Miau Bistró, ir al inicio">
+        <img src="assets/img/logo.svg" alt="" width="48" height="48" />
+        <span class="brand-text"><strong>Miau Bistró</strong><small>cat café · medellín</small></span>
+      </a>
+      <img class="cat" src="assets/img/gato-7.jpg" alt="Tofu, el gato dormilón de Miau Bistró" width="1000" height="1000" />
+      <p class="error-code" aria-hidden="true">404</p>
+      <h1>Esta página se fue a <em>dormir</em>.</h1>
+      <p>Como Tofu, decidió tomarse una siesta y no la encontramos. Vuelve al inicio o reserva una mesa: los gatos te están esperando.</p>
+      <a class="btn btn-primary" href="index.html">Volver al inicio</a>
+      <a class="btn btn-ghost" href="index.html#reservas">Reservar mesa</a>
+    </div>
+  </main>
+</body>
+</html>
