@@ -121,6 +121,7 @@ git push
 - **Textos y precios:** directamente en `index.html`.
 - **Gatos y fichas:** el objeto `cats` en `assets/js/main.js`.
 - **Fotos:** reemplaza los archivos de `assets/img/` conservando los nombres o actualiza las rutas.
+- **Redes y contacto:** los enlaces de Instagram y TikTok son marcadores de posición (`#`); el teléfono, correo y dirección son datos de ejemplo.
 
 ## 📸 Créditos de imágenes
 
